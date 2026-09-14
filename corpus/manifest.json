@@ -1,0 +1,24 @@
+{
+  "corpus_id": "LM-CORPUS-001",
+  "version": "0.1.0",
+  "status": "PROVENANCE_READY_NOT_INGESTED",
+  "description": "Manifiesto canónico para el corpus computacional del Libro egipcio de los Muertos.",
+  "primary_manifest": "MAN_ANI",
+  "sources": [
+    {
+      "id": "MAN_ANI",
+      "work": "Papiro de Ani",
+      "repository": "British Museum",
+      "inventory_number": "EA10470",
+      "role": "primary_reference",
+      "ingestion_status": "not_ingested",
+      "content_claim": "reference_only_until_primary_source_ingestion"
+    }
+  ],
+  "policy": {
+    "no_invented_text": true,
+    "no_placeholder_as_source": true,
+    "provenance_required_for_ingested_units": true,
+    "translation_requires_source_trace": true
+  }
+}
