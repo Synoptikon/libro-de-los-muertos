@@ -16,6 +16,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install test runner
+        run: python -m pip install --upgrade pip pytest
       - name: Validate corpus manifest
         run: python -m src.validacion.corpus_manifest
       - name: Run tests
