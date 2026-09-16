@@ -1,1 +1,0 @@
-Identity verification gate: exact source_id and inventory_number matching; HTTP(S) URI required; no download or transformation; CI must pass before merge.
