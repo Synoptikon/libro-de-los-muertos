@@ -1,0 +1,1 @@
+Registered identity must match observed identity exactly before acquisition.
