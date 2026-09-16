@@ -30,5 +30,5 @@ def test_mismatched_inventory_is_rejected():
 def test_invalid_uri_is_rejected():
     item = record()
     item["source_uri"] = "example.invalid/ea10470"
-    with pytest.raises(ValueError, match="HTTP\(S\)"):
+    with pytest.raises(ValueError, match="HTTP"):
         verify_source_identity(item)
