@@ -1,0 +1,1 @@
+Gate implemented. Pending CI audit and merge.
